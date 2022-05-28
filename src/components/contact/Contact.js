@@ -2,9 +2,9 @@ import React, { useRef } from "react";
 import Header from "../header/Header";
 import { RiContactsFill } from "react-icons/ri";
 import "./Contact.scss";
-import { Animate } from "react-simple-animate";
+
 import emailjs from "@emailjs/browser";
-import { MapContainer, TileLayer, useMap, Marker, Popup } from "react-leaflet";
+import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import {Loader} from 'react-loaders'
 
 const Contact = () => {

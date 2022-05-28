@@ -1,0 +1,114 @@
+.portfolio {
+  height: 100%;
+
+  &::before, &::after {
+    content: '';
+    position: absolute;
+    left: 0; 
+ }
+ &::before {
+     clip-path: polygon(100% 33%, 0% 100%, 100% 100%);
+     background: linear-gradient(45deg, rgba(51, 51, 51, 1), rgba(18, 18, 17, 0.74));
+     width: 100%;
+     height: 100%;
+ }
+}
+.portfolio-container {
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+
+  .portfolio-cards {
+    margin-top: 30px;
+    height: 80%;
+    opacity: 0;
+    animation: fadeIn 1s 1s;
+    animation-fill-mode: forwards;
+  }
+}
+
+.card {
+  position: relative;
+  cursor: pointer;
+  border: 3px solid #333333;
+
+  img {
+    height: 100%;
+    width: 100%;
+  }
+
+  &_details {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    button {
+        width: 100px;
+        height: 40px;
+      cursor: pointer;
+    //   padding: 8px 20px;
+      font-size: 1.1rem;
+      background: transparent;
+      color: var(--yellow-theme-main-color);
+      border: 1.5px solid var(--yellow-theme-main-color);
+      border-radius: 4px;
+      font-family: 500;
+      text-decoration: none;
+      letter-spacing: 0.05rem;
+      opacity: 0;
+margin: 2px;
+
+      &:hover {
+        background-color: var(--yellow-theme-main-color);
+        color: #000000;
+      }
+    }
+
+    h3 {
+        color: var(--yellow-theme-main-color);
+        font-size: 24px;
+        letter-spacing: 0.05rem;
+        margin-bottom: 10px;
+        opacity: 0;
+    }
+  }
+
+  &:hover button {
+    opacity: 1;
+    transition: 500ms;
+  }
+  &:hover img {
+    opacity: 0.2;
+  }
+  &:hover h3 {
+      opacity: 1;
+      transition: 500ms;
+
+  }
+
+}
+
+@media screen and (min-width: 750px) {
+  .portfolio-cards {
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1436px) {
+  .portfolio-cards {
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(20rem, 1fr));
+    gap: 1.5rem;
+  }
+}
+
+// @media screen and (max-width: 1300px) {
+//     .portfolio-cards {
+//         grid-template-columns: repeat(autofit, minmax(25rem, 1fr));
+//     }
+// }

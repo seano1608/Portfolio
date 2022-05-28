@@ -1,0 +1,120 @@
+.home {
+  font-family: "Helvetica Neue";  
+  position: relative;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+  &_container {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    h1 {
+      color: var(--yellow-theme-main-color);
+      margin: 0px;
+      font-weight: 600;
+      font-size: 80px;
+      line-height: 5rem;
+      letter-spacing: 0.1rem;
+      position: relative;
+      overflow: hidden;
+      white-space: nowrap;
+    //   animation: typingEffectAnimation 2.5s steps(30, end);
+
+    }
+    h2{
+        color: var(--yellow-theme-main-color);
+        font-weight: 400;
+        font-size: 20px;
+        font-family: sans-serif;
+        
+    }
+  }
+}
+.contact-button{
+    display: flex;
+   justify-content: center;
+   margin-top: 20px;
+
+   .flat-button{
+       cursor: pointer;
+       padding: 10px 65px;
+       font-size: 1.6rem;
+       background: transparent;
+       color: var(--yellow-theme-main-color);
+       border: 1.5px solid var(--yellow-theme-main-color);
+       border-radius: 4px;
+       font-family: 500;
+       text-decoration: none;
+       
+       &:hover{
+           background-color: var(--yellow-theme-main-color);
+           color: #000000;
+       }
+   }
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+
+    .socials_icon{
+        background-color: var(--yellow-theme-main-color);
+    }
+}
+.text-zone{
+    img{
+        width: 50px;
+    }
+}
+
+
+// @media screen and (max-width: 550px) {
+    
+// }
+// @media screen and (min-width: 551px) and (max-width:768px) {
+    
+// }
+// @media screen and (min-width: 769px) and (max-width:990px) {
+    
+// }
+@media screen and (max-width: 750px) {
+    .home {
+        h1{
+            font-size: 70px;
+        }
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .home {
+        h1{
+            font-size: 60px;
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .home {
+        h1{
+            font-size: 45px;
+        }
+    }
+    .text-zone{
+        img{
+            width: 40px;
+        }
+    }
+}
+@keyframes typingEffectAnimation{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}

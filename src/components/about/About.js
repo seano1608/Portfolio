@@ -4,7 +4,7 @@ import { BsInfoCircleFill } from "react-icons/bs";
 import "./About.scss";
 import { Animate } from "react-simple-animate";
 import { FaNodeJs, FaReact, FaCss3, FaGithub } from "react-icons/fa";
-import {Loader} from 'react-loaders'
+import { Loader } from "react-loaders";
 
 const personalDetails = [
   {
@@ -45,26 +45,22 @@ const About = () => {
             >
               <h2>Frontend Developer</h2>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in
+                I'm a student of the tech world, always eager to be on the front
+                lines of emerging technologies. I enjoy constantly upskilling
+                and challenging myself to do and know more. I take pride in my
+                work and therefore always want to be in-line with industry
+                trends and standards.
               </p>
               <p>
-                Contrary to popular belief, Lorem Ipsum is not simply random
-                text. It has roots in a piece of classical Latin literature from
-                45 BC, making it over 2000 years old. Richard McClintock, a
-                Latin professor at Hampden-Sydney College in Virginia, looked up
-                one of the more obscure Latin words, consectetur, from a Lorem
-                Ipsum
+                But more importantly, I enjoy working with people. I believe
+                that the more technological society becomes, the greater the
+                need for human connection and understanding. I strive to bridge
+                that gap in order to improve people's globally and share
+                whatever knowledge I have along the way.
               </p>
               <p>
-                the 1960s with the release of Letraset sheets containing Lorem
-                Ipsum passages, and more recently with desktop publishing
-                software like Aldus PageMaker including versions of Lorem Ipsum.
+                Excited for what is, and consistently looking forward for what
+                is to come. I hope to see you along the way!
               </p>
             </Animate>
 
@@ -112,7 +108,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <Loader type="pacman"/>
+      <Loader type="pacman" />
     </>
   );
 };

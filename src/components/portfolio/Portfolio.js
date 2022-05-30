@@ -24,18 +24,18 @@ const Portfolio = () => {
           <div className="card">
             <img src={Portfolio1} alt="Portfolio 1" />
             <div className="card_details">
-              <h3>Amazon Clone</h3>
+              <h3>Tailwind Gallery</h3>
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://www.linkedin.com/in/sean-thomson97/"
+                href="https://sean-tailwind-gallery.netlify.app/"
               >
                 <button>Link</button>
               </a>
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://www.linkedin.com/in/sean-thomson97/"
+                href="https://github.com/seano1608/tailwind_gallery"
               >
                 <button>&lt;/Code&gt;</button>
               </a>
@@ -48,14 +48,14 @@ const Portfolio = () => {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://www.linkedin.com/in/sean-thomson97/"
+                href="https://clone-e3a8b.web.app/home"
               >
                 <button>Link</button>
               </a>
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://www.linkedin.com/in/sean-thomson97/"
+                href="https://github.com/seano1608/amazon_clone"
               >
                 <button>&lt;/Code&gt;</button>
               </a>
@@ -64,18 +64,18 @@ const Portfolio = () => {
           <div className="card">
             <img src={Portfolio3} alt="Portfolio 3" />
             <div className="card_details">
-              <h3>Amazon Clone</h3>
+              <h3>Expense Tracker</h3>
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://www.linkedin.com/in/sean-thomson97/"
+                href="https://sean-exp-tracker-react.netlify.app/"
               >
                 <button>Link</button>
               </a>
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://www.linkedin.com/in/sean-thomson97/"
+                href="https://github.com/seano1608/expense_tracker"
               >
                 <button>&lt;/Code&gt;</button>
               </a>
@@ -84,18 +84,18 @@ const Portfolio = () => {
           <div className="card">
             <img src={Portfolio4} alt="Portfolio 4" />
             <div className="card_details">
-              <h3>Amazon Clone</h3>
+              <h3>Youtube Clone</h3>
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://www.linkedin.com/in/sean-thomson97/"
+                href="https://youtube-clone-sean.netlify.app/"
               >
                 <button>Link</button>
               </a>
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://www.linkedin.com/in/sean-thomson97/"
+                href="https://github.com/seano1608/youtube-clone"
               >
                 <button>&lt;/Code&gt;</button>
               </a>
@@ -104,18 +104,18 @@ const Portfolio = () => {
           <div className="card">
             <img src={Portfolio5} alt="Portfolio 5" />
             <div className="card_details">
-              <h3>Amazon Clone</h3>
+              <h3>Netflix Clone</h3>
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://www.linkedin.com/in/sean-thomson97/"
+                href="https://netflix-clone-sean.netlify.app/"
               >
                 <button>Link</button>
               </a>
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://www.linkedin.com/in/sean-thomson97/"
+                href="https://github.com/seano1608/netflix_clone"
               >
                 <button>&lt;/Code&gt;</button>
               </a>
@@ -124,7 +124,7 @@ const Portfolio = () => {
           <div className="card">
             <img src={Portfolio6} alt="Portfolio 6" />
             <div className="card_details">
-              <h3>Amazon Clone</h3>
+              <h3>AI Branding</h3>
               <a
                 target="_blank"
                 rel="noreferrer"

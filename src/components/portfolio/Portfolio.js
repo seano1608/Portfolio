@@ -21,6 +21,26 @@ const Portfolio = () => {
       <div className="portfolio-container">
         <span className="filter">Toggle portfolio filter</span>
         <div className="portfolio-cards">
+        <div className="card">
+            <img src={Portfolio6} alt="Portfolio 6" />
+            <div className="card_details">
+              <h3>Graphcms Blog</h3>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://graphcms-blog-qb2akolup-seano1608.vercel.app/"
+              >
+                <button>Link</button>
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/seano1608/Graphcms_Blog"
+              >
+                <button>&lt;/Code&gt;</button>
+              </a>
+            </div>
+          </div>
           <div className="card">
             <img src={Portfolio1} alt="Portfolio 1" />
             <div className="card_details">
@@ -41,6 +61,7 @@ const Portfolio = () => {
               </a>
             </div>
           </div>
+
           <div className="card">
             <img src={Portfolio2} alt="Portfolio 2" />
             <div className="card_details">
@@ -61,6 +82,7 @@ const Portfolio = () => {
               </a>
             </div>
           </div>
+
           <div className="card">
             <img src={Portfolio3} alt="Portfolio 3" />
             <div className="card_details">
@@ -121,26 +143,7 @@ const Portfolio = () => {
               </a>
             </div>
           </div>
-          <div className="card">
-            <img src={Portfolio6} alt="Portfolio 6" />
-            <div className="card_details">
-              <h3>AI Branding</h3>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://www.linkedin.com/in/sean-thomson97/"
-              >
-                <button>Link</button>
-              </a>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://www.linkedin.com/in/sean-thomson97/"
-              >
-                <button>&lt;/Code&gt;</button>
-              </a>
-            </div>
-          </div>
+          
         </div>
       </div>
     </div>
